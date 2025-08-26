@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  background: #0a0f1c;
+  color: #f5f5f5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111827;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+}
+
+header .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #f5f5f5;
+  font-weight: 500;
+}
+
+nav a:hover,
+nav a.active {
+  color: #38bdf8;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #0a0f1c, #1e293b);
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  border-left: 5px solid #38bdf8;
+  padding-left: 10px;
+}
+
+.villains .villain-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.villain-card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.villain-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111827;
+  margin-top: 50px;
+  font-size: 14px;
+}

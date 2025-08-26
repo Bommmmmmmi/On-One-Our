@@ -1,1 +1,45 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>ZEN Threat Profile</title><style>body{margin:0;background:#05020b;color:#ffd700;font:14px/1.4 sans-serif;display:flex;justify-content:center;align-items:center;height:100vh;overflow:hidden} .profile{position:relative;width:90%;max-width:700px;padding:30px;border-radius:10px;background:rgba(20,10,0,.85);border:2px solid #ffbf00;box-shadow:0 0 30px #ffbf00;text-align:left;overflow:hidden;font-family:monospace;} .scanline{position:absolute;top:-100%;left:0;width:100%;height:100%;background:linear-gradient(180deg,transparent,rgba(255,215,0,0.3),transparent);animation:scan 4s linear infinite;z-index:1} @keyframes scan{0%{top:-100%}50%{top:100%}100%{top:-100%}} .h1-wrapper{position:relative;display:inline-block} h1{margin:0;font-size:48px;font-weight:900;color:#ffd700;text-shadow:0 0 4px #ffbf00;position:relative;z-index:2} .glitch::before,.glitch::after{content:attr(data-text);position:absolute;left:0;width:100%;color:#ffbf00;overflow:hidden;clip:rect(0,900px,0,0);animation:glitch 2s infinite linear alternate-reverse} .glitch::after{color:#ffd700;animation:glitch2 2.5s infinite linear alternate-reverse} @keyframes glitch{0%{clip:rect(0,9999px,0,0)}20%{clip:rect(0,9999px,50px,0)}40%{clip:rect(0,9999px,0,0)}60%{clip:rect(0,9999px,50px,0)}80%{clip:rect(0,9999px,0,0)}100%{clip:rect(0,9999px,50px,0)}} @keyframes glitch2{0%{clip:rect(0,9999px,50px,0)}20%{clip:rect(0,9999px,0,0)}40%{clip:rect(0,9999px,50px,0)}60%{clip:rect(0,9999px,0,0)}80%{clip:rect(0,9999px,50px,0)}100%{clip:rect(0,9999px,0,0)}} .team{margin:10px 0;font-size:18px;color:#ffd700;font-weight:700} .ability{margin-top:15px;font-size:15px;color:#ffec99} .label{color:#ffbf00;font-weight:700} .danger{color:#ff4c00;font-weight:900}</style></headbody><div class="profile"><div class="scanline"></div><div class="h1-wrapper"><h1 class="glitch" data-text="ZEN">ZEN</h1><span style="position:absolute;top:0;left:0;font-size:60px;color:rgba(255,215,0,0.15);font-weight:900;z-index:1">PROFILE</span></div><div class="team">#<strong>勸惡懲善</strong> (권악징선)</div><div class="ability">능력:  공간을 어둠으로 봉쇄</div><p><span class="label danger">위험도:</span> ● ● ● ● ○ </p><p><span class="label">목표:</span> 추적·체포</p></div></body></html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>프로젝트 OOO 공식 홈페이지</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">프로젝트 OOO</div>
+    <nav>
+      <a href="#intro">프로젝트 소개</a>
+      <a href="#sentinel">센티넬 소개</a>
+      <a href="villains.html">빌런 수배</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>프로젝트 OOO (On One Our)</h1>
+    <p>센티넬 부대 <b>실루엣</b>과 빌런 조직 <b>권악징선</b>의 대립</p>
+  </section>
+
+  <section id="intro">
+    <h2>프로젝트 소개</h2>
+    <p>
+      권악징선은 센티넬을 방해하며 각자의 이익을 취하는 국내 최대 악의 집단입니다.<br>
+      현재 실루엣은 권악징선의 모든 빌런들을 체포하는 것을 목적으로 활동 중입니다.<br>
+      이 작전의 이름이 바로 <b>프로젝트 OOO</b>.
+    </p>
+  </section>
+
+  <section id="sentinel">
+    <h2>센티넬 실루엣</h2>
+    <p>
+      센티넬 부대 <b>실루엣</b>은 비밀리에 조직된 특수 요원 집단으로,<br>
+      초능력과 첨단 기술을 사용하여 악의 세력으로부터 인류를 지키고 있습니다.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 프로젝트 OOO. All rights reserved.</p>
+  </footer>
+</body>
+</html>
